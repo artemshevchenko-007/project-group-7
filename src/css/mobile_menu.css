@@ -1,0 +1,50 @@
+.mobile-menu{
+    background-color: #e0cbb4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.is-open{
+    transform: translateX(0);
+}
+
+.mobile-container{
+    padding: 18px 0px 18px 26px;
+    position: relative;
+}
+
+.close-mobile-btn{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    cursor: pointer;
+}
+
+.nav-mobile{
+    padding-top: 18px;
+    text-align: center;
+}
+
+.mobile-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mobile-menu .header-nav-link{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #0B0803;
+}
+
