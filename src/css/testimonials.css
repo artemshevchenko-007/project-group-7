@@ -1,27 +1,14 @@
 .testimonials {
   padding: 64px 0;
 }
-
 .testimonials-title {
-  font-family: 'Aboreto', sans-serif;
-
   max-width: 288px;
   margin-bottom: 24px;
-
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
 }
 @media only screen and (min-width: 768px) {
   .testimonials-title {
     max-width: 498px;
     margin-bottom: 24px;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .testimonials-title {
-    font-size: 48px;
   }
 }
 .testimonials-list {
@@ -32,7 +19,6 @@
   align-items: center;
   gap: 24px;
 }
-
 .testimonials-item {
   min-width: 265px;
   max-width: 343px;
@@ -45,8 +31,6 @@
   border-radius: 32px;
   border: 1px solid rgba(11, 8, 3, 0.15);
   background-color: #c29d84;
-
-  transition: background-color 250ms cubic-bezier(0.5, 0, 0.2, 1);
 }
 @media only screen and (min-width: 768px) {
   .testimonials-item {
@@ -78,18 +62,14 @@
   gap: 4px;
   color: #0b0803;
 }
-
 .testimonials-stars-item {
 }
 .testimonials-stars-icon {
 }
 .testimonials-comment {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
 }
 .testimonials-reviewer {
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.5;
 }
