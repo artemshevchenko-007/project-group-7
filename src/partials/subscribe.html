@@ -1,0 +1,40 @@
+<section class="subscribe">
+    <div class="container subscribe-container">
+        <div class="subscribe-content">
+            <h2 class="subscribe-title">Join Our Coffee Community</h2>
+            <p class="subscribe-text">Experience the joy of coffee delivered right to your door. Sign up today!</p>
+            <form class="subscribe-form">
+                <label class="subscribe-label" for="user-email">
+                    <input class="input-subscribe" id="user-email" type="email" name="user-email"
+                        placeholder="Your Email Here"
+                        pattern="([A-Za-z0-9_.-]{1,})@([A-Za-z0-9_.-]{1,})\.([A-Za-z]{2,8})" required />
+                    <span class="text-valid">Success!</span>
+                    <span class="text-invalid">Invalid email, try again</span>
+                </label>
+
+                <button class="btn-subscribe" type="submit">Subscribe
+                    <svg class="chevrons" width="24" height="24">
+                        <use href="/img/symbol-defs.svg#icon-chevrons-right"></use>
+                    </svg>
+                </button>
+            </form>
+            <p class="terms">By clicking Get Started, you agree to our Terms and Conditions.</p>
+        </div>
+        <picture class="sub-picture">
+            <source media="(min-width: 1158px)" srcset="
+                /img/subscribe/community-desktop-min.jpg    1x,
+                /img/subscribe/community-desktop@2x-min.jpg 2x
+              " />
+            <source media="(min-width: 768px)" srcset="
+                /img/subscribe/community-tablet-min.jpg    1x,
+                /img/subscribe/community-tablet@2x-min.jpg 2x
+              " />
+            <source media="(max-width: 767px)" srcset="
+                /img/subscribe/community-mobile-min.jpg  1x,
+                /img/subscribe/community-mobile@2x-min.jpg 2x
+              " />
+            <img class="sub-image" src="/img/subscribe/community-mobile-min.jpg"
+                alt="People having coffee and working together" />
+        </picture>
+    </div>
+</section>
