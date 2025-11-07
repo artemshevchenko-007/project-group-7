@@ -36,6 +36,18 @@
   width: 100%;
 }
 
+.sub-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .input-subscribe {
   border: 1px solid rgba(11, 8, 3, 0.15);
   border-radius: 12px;
