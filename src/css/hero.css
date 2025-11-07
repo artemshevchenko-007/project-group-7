@@ -1,1 +1,98 @@
 
+/* #region Hero-section */
+
+.hero-container {
+    padding: 108px 32px;
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-mob-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-resolution: 192dpi) {
+    .hero-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-mob@2x-min.jpg);
+    }
+}
+
+.hero-wrapper {
+    text-align: start;
+}
+
+.hero-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.hero-item {
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.hero-link {
+    display: block;
+    width: 135px;
+    height: 44px;
+    white-space: nowrap;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background-color: #6f4e37;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    opacity: 0.5;
+    transition: opacity 250ms cubic-bezier(0.5, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.5, 0, 0.2, 1);
+    color: #0b0803;
+}
+
+
+@media only screen and (min-width: 768px) {
+   .hero-container {
+    padding: 312px 32px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-tab-min.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+      .hero-container {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-tab@2x-min.jpg);
+      }
+  }
+
+      .hero-wrapper {
+          max-width: 560px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+   .hero-container {
+    padding: 259px 64px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-desk-min.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+      .hero-container {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-desk@2x-min.jpg);
+      }
+  }
+
+      .hero-title{
+          font-size: 56px;
+      }
+}
+
+/* #endregion Hero-section */
