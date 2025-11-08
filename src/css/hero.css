@@ -3,7 +3,6 @@
 
 .hero-container {
     padding: 108px 32px;
-    max-width: 1440px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-mob-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,6 +80,7 @@
 @media only screen and (min-width: 1440px) {
    .hero-container {
     padding: 259px 64px;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero/hero-desk-min.jpg);
   }
 
