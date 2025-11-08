@@ -1,1 +1,43 @@
+.footer {
+  background-color: #b58869;
+  padding: 24px 0;
+}
 
+.footer-wrapper {
+  background-color: #c29d84;
+  border-radius: 40px;
+  padding: 32px 0;
+  margin-bottom: 32px;
+}
+
+.footer-top {
+  margin-bottom: 32px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  margin-bottom: 40px;
+}
+
+.footer-social {
+  outline: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  outline: 1px solid red;
+}
+
+.footer-copy {
+  font-size: 14px;
+  text-align: center;
+}
