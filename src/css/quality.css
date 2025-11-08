@@ -11,17 +11,10 @@
 }
 .quality-title {
   margin-bottom: 24px;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1.2em;
-  font-family: 'Aboreto', system-ui;
 }
 .quality-text {
   margin: 0 auto 32px;
-  font-size: 18px;
   font-weight: 400;
-  font-style: normal;
-  line-height: 1.5em;
 }
 .quality-item:not(:last-child) {
   margin-bottom: 24px;
@@ -29,6 +22,7 @@
 .quality-item-img {
   margin: 0 auto 32px;
   width: 100%;
+  border-radius: 32px;
 }
 .quality-item-subtitle {
   margin-bottom: 8px;
@@ -67,11 +61,10 @@
     width: auto;
     grid-column: auto;
   }
-
   .quality-item {
     flex: 1;
   }
-  .quality-title {
-    font-size: 48px;
+  .quality-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
