@@ -1,6 +1,8 @@
+.quality {
+  padding: 64px 0;
+}
 .quality-container {
   text-align: center;
-  margin: 64px auto;
   box-sizing: border-box;
 }
 .quality-subtitle {
