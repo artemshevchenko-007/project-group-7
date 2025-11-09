@@ -1,20 +1,23 @@
 .experience-container {
-  text-align: center;
   margin: 0 auto;
   padding-top: 64px;
   padding-bottom: 64px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
-.experiense-title {
+.experience-title {
+  max-width: 320px;
   text-align: center;
   color: #23201c;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }
+
 .experience-title-text {
   font-weight: 400;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 0 auto 24px;
+  max-width: 320px;
 }
 .gallery {
   display: flex;
@@ -30,6 +33,13 @@
   .img7 {
     width: 100%;
     grid-column: 1 / span 2;
+  }
+
+  .experience-title {
+    max-width: 100%;
+  }
+  .experience-title-text {
+    max-width: 100%;
   }
 }
 
