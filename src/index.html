@@ -39,5 +39,16 @@
     <load src="./partials/backdrop.html" />
 
     <script type="module" src="./js/script.js"></script>
+
+    <script>
+      document
+        .querySelector('.contacts-button')
+        .addEventListener('click', () => {
+          window.open(
+            'https://www.google.com/maps?q=263+Newbury+St,+Boston,+MA',
+            '_blank'
+          );
+        });
+    </script>
   </body>
 </html>
