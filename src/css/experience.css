@@ -1,6 +1,8 @@
 .experience-container {
   text-align: center;
-  margin: 64px auto;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
   box-sizing: border-box;
 }
 
@@ -27,7 +29,7 @@
   }
   .img7 {
     width: 100%;
-    grid-column: 1 / -1;
+    grid-column: 1 / span 2;
   }
 }
 
