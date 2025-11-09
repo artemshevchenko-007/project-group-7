@@ -44,6 +44,12 @@
     max-width: 208px;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  .contacts-item {
+    max-width: 419px;
+  }
+}
 .contacts-icon {
   fill: #0b0803;
 }
@@ -117,6 +123,7 @@
 @media only screen and (min-width: 1440px) {
   .map-container {
     height: 697px;
+    min-width: 869px;
   }
 }
 .map-container iframe {
