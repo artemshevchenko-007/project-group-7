@@ -46,7 +46,7 @@
 @media only screen and (min-width: 1440px) {
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 234px 150px 234px 150px 52px;
+    grid-template-rows: 234px 150px 52px 332px 52px;
   }
   .img1 {
     grid-area: 1 / 1 / span 2 / span 1;
@@ -55,13 +55,13 @@
     grid-area: 3 / 1 / span 2 / span 1;
   }
   .img3 {
-    grid-area: 4 / 2 / span 2 / span 1;
+    grid-area: 2 / 2 / span 2 / span 1;
   }
   .img4 {
     grid-area: 1 / 2 / span 1 / span 1;
   }
   .img5 {
-    grid-area: 2 / 2 / span 2 / span 1;
+    grid-area: 4 / 2 / span 2 / span 1;
   }
   .img6 {
     grid-area: 1 / 3 / span 2 / span 1;
