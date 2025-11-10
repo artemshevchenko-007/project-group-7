@@ -8,6 +8,10 @@
   box-sizing: border-box;
   flex-direction: column;
 }
+.quality-content {
+  text-align: center;
+  margin: 0 auto;
+}
 .quality-subtitle {
   margin-bottom: 16px;
   font-size: 16px;
@@ -66,6 +70,9 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .quality-content {
+    width: 768px;
+  }
   .quality-list {
     display: flex;
     flex-direction: row;
