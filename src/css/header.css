@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 768px){
     .header-container{
-        padding: 18px 64px 18px 74px;
+        padding: 0px 64px 0px 74px;
     }
 
     .header-nav-list{
