@@ -9,6 +9,12 @@
   transition: transform 0.3s ease-in-out;
 }
 
+@media only screen and (min-width: 768px){
+    .mobile-menu{
+        display: none;
+    }
+}
+
 .mobile-menu.is-open {
   transform: translateX(0);
 }
@@ -29,7 +35,6 @@
 }
 
 .nav-mobile {
-  padding-top: 18px;
   text-align: center;
 }
 
@@ -48,3 +53,8 @@
   line-height: 1.5;
   color: #0b0803;
 }
+
+.mb-18{
+    margin-bottom: 18px;
+}
+
