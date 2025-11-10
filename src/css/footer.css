@@ -16,8 +16,7 @@
   .footer-wrapper {
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding: 0 48px;
   }
 }
 
@@ -110,6 +109,13 @@
 .footer-social-link {
   display: inline-block;
   transition: opacity 250ms ease-in-out;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-nav-link,
+  .footer-social-link {
+    padding: 32px 0;
+  }
 }
 
 .footer-nav-link:hover,
