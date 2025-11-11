@@ -86,7 +86,6 @@
 
 @media only screen and (min-width: 1440px) {
   .hero-section {
-    max-width: 1440px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(/img/hero/hero-desk-min.jpg);
   }
